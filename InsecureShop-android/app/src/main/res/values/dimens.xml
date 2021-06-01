@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="tiny_padding">2dp</dimen>
+    <dimen name="small_padding">4dp</dimen>
+    <dimen name="medium_padding">6dp</dimen>
+    <dimen name="regular_padding">8dp</dimen>
+    <dimen name="large_padding">10dp</dimen>
+    <dimen name="extra_large_padding">15dp</dimen>
+    <dimen name="huge_padding">20dp</dimen>
+
+    <dimen name="extra_large_margin">32dp</dimen>
+    <dimen name="large_margin">24dp</dimen>
+    <dimen name="medium_margin">16dp</dimen>
+    <dimen name="small_margin">8dp</dimen>
+
+    <dimen name="radius">16dp</dimen>
+    <dimen name="large_radius">24dp</dimen>
+    <dimen name="large_text">30sp</dimen>
+
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="activity_margin">16dp</dimen>
+    <dimen name="card_margin">5dp</dimen>
+    <dimen name="card_album_radius">4dp</dimen>
+    <dimen name="product_list_thumbnail">160dp</dimen>
+    <dimen name="ic_add_cart_width">25dp</dimen>
+    <dimen name="selected_product_count">14sp</dimen>
+    <dimen name="list_product_name">14sp</dimen>
+    <dimen name="activity_margin_half">8dp</dimen>
+    <dimen name="cart_info_data">16sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="height_separator">1dp</dimen>
+    <dimen name="corner_radius_bottom_sheet">8dp</dimen>
+    <dimen name="corner_radius_remove_item">3dp</dimen>
+    <dimen name="btn_remove_item">24dp</dimen>
+    <dimen name="logo_login">60dp</dimen>
+    <dimen name="logo_margin_top">60dp</dimen>
+    <dimen name="login_field_height">40dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="corner_radius_form_input">3dp</dimen>
+    <dimen name="logo_width_form">80dp</dimen>
+    <dimen name="lbl_processing_transaction">16dp</dimen>
+    <dimen name="lbl_order_status">20sp</dimen>
+    <dimen name="dimen_4dp">4dp</dimen>
+    <dimen name="price_with_label">16sp</dimen>
+
+</resources>

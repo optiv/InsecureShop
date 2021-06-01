@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="@dimen/card_margin"
+            android:elevation="3dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/picture"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/product_list_thumbnail" />
+
+                <TextView
+                    android:id="@+id/prod_name"
+                    android:text="@string/app_name"
+                    style="@style/Roboto.Bold.Medium"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:lineSpacingExtra="2sp"
+                    android:maxLines="2"
+                    android:padding="@dimen/activity_margin_half"
+                    android:textColor="@color/list_product_name"
+                    android:textSize="@dimen/list_product_name"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/more_info"
+                    android:text="More Info"
+                    style="@style/Roboto.Medium.Small"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="sans-serif-medium"
+                    android:lineSpacingExtra="2sp"
+                    android:maxLines="2"
+                    android:padding="@dimen/activity_margin_half"
+                    android:textColor="@color/lbl_secondary"
+                    android:textStyle="normal" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/activity_margin_half"
+                    android:paddingRight="@dimen/activity_margin_half"
+                    android:paddingBottom="@dimen/activity_margin_half">
+
+                    <TextView
+                        android:id="@+id/prod_price"
+                        style="@style/Roboto.Medium.Medium"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerInParent="true"
+                        android:fontFamily="sans-serif-medium"
+                        android:lineSpacingExtra="2sp"
+                        android:textColor="@color/list_products_price"
+                        android:textSize="12sp"
+                        android:text="@string/app_name"
+                        android:textStyle="normal" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerInParent="true"
+                        android:layout_alignParentRight="true"
+                        android:orientation="horizontal">
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ic_add"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:src="@drawable/ic_plus"
+                            android:padding="5dp" />
+
+                        <TextView
+                            android:id="@+id/product_count"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:paddingLeft="@dimen/activity_margin_half"
+                            android:paddingRight="@dimen/activity_margin_half"
+                            android:textColor="@color/colorAccent"
+                            android:textSize="@dimen/selected_product_count"
+                            android:textStyle="normal" />
+
+                        <androidx.appcompat.widget.AppCompatImageView
+                            android:id="@+id/ic_remove"
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:padding="5dp"
+                            android:src="@drawable/ic_minus" />
+
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+    </RelativeLayout>
+</layout>

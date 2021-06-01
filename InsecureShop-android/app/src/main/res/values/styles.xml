@@ -1,0 +1,221 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="android:fontFamily">@style/Roboto.Small</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="android:itemBackground">@android:color/white</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="android:fontFamily">@style/Roboto.Small</item>
+        <!-- <item name="android:textStyle">@style/Roboto.Small</item>-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--Regular Roboto-->
+    <style name="Roboto.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.SubHead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--EOF Regular Roboto-->
+    <!--Light Roboto-->
+    <style name="Roboto.Light.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Light.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Light.SubHead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Light.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Light.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/roboto_light</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--EOF Light Roboto-->
+    <!--Medium Roboto-->
+    <style name="Roboto.Medium.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Medium.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Medium.SubHead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Medium.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Medium.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/roboto_medium</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--EOF Medium Roboto-->
+    <!--Bold Roboto-->
+    <style name="Roboto.Bold.Caption" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Bold.Small" parent="TextAppearance.AppCompat.Small">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Bold.SubHead" parent="TextAppearance.AppCompat.Subhead">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Bold.Medium" parent="TextAppearance.AppCompat.Medium">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="Roboto.Bold.Large" parent="TextAppearance.AppCompat.Large">
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <!--EOF Bold Roboto-->
+
+    <style name="smallButtonStyle" parent="Roboto.Large">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:paddingStart">@dimen/huge_padding</item>
+        <item name="android:paddingEnd">@dimen/huge_padding</item>
+        <item name="android:paddingTop">@dimen/medium_padding</item>
+        <item name="android:paddingBottom">@dimen/medium_padding</item>
+        <item name="background">@drawable/btn_bg</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="DefaultEditText" parent="Roboto.Medium">
+        <item name="android:singleLine">true</item>
+        <item name="android:imeOptions">actionNext</item>
+        <item name="android:padding">@dimen/large_padding</item>
+    </style>
+
+    <style name="DefaultButton" parent="Roboto.Bold.Medium">
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@drawable/btn_bg</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:padding">@dimen/large_padding</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@android:color/black</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="actionMenuTextColor">@android:color/black</item>
+    </style>
+    <style name="AppButton" parent="DefaultButton">
+        <item name="android:background">@drawable/btn_bg_yellow</item>
+        <item name="android:textColor">@android:color/black</item>
+
+    </style>
+
+</resources>
