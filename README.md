@@ -5,6 +5,10 @@
 * This also serves as a platform to test your Android pentesting skills.
 * Developed in Kotlin, this application was created primarily for research on Android Deeplinks and Webviews. However, several more vulnerabilities were added in this app which were found in real-world Android applications. The vulnerabilities present in this app are real and have been found during mobile pentests.
 
+# ⚙️ Usage
+
+You can compile the source code in Android Studio or simply download the APK file from [here](https://github.com/optiv/InsecureShop/releases/download/v1.0/InsecureShop.apk)
+
 # 📌 Note:
 
 * Rooted device is not required. All vulnerabilities can be exploited on a non-rooted device.
