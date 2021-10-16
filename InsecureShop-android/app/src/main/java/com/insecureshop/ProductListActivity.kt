@@ -16,6 +16,8 @@ import kotlinx.android.synthetic.main.activity_product_list.*
 
 class ProductListActivity : AppCompatActivity() {
     private val productDetailBroadCast = ProductDetailBroadCast()
+
+    @RequiresApi(Build.VERSION_CODES.M)
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         if (TextUtils.isEmpty(Prefs.getInstance(applicationContext).username)) {
@@ -26,6 +28,8 @@ class ProductListActivity : AppCompatActivity() {
         }
         setContentView(R.layout.activity_product_list)
         setSupportActionBar(toolbar)
+
+        requestPermissions(arrayOf(Manifest.permission.READ_CONTACTS), 1)
 
         val intentFilter = IntentFilter("com.insecureshop.action.PRODUCT_DETAIL")
         registerReceiver(productDetailBroadCast, intentFilter)
